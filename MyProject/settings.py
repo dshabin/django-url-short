@@ -28,9 +28,26 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
-# Application definition
 
-SHORT_URL_LENGTH_BOUNDS = (2,50)
+
+
+
+'''
+I didn't get point of SHORT_URL_LENGHT .
+I have used the base64 encoding to avoid store short url in the database.
+'''
+#SHORT_URL_LENGTH_BOUNDS = (2,50)
+'''
+I didn't get point of SHORT_URL_LENGHT .
+I have used the base64 encoding to avoid store short url in the database.
+'''
+
+
+
+
+
+
+
 
 INSTALLED_APPS = [
     'django.contrib.admin',
